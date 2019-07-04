@@ -1,0 +1,72 @@
+<doctype html>
+<html>
+    <head>
+        <link href="css/01_style.css" rel="stylesheet">
+        <link href="fonts/signup/css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="fonts/register/css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="js/01_design.js" rel="stylesheet">
+    </head>
+    <body>
+        <!..........................header...........................>
+        <div class="header">
+            <h1>
+                <span class="hello">WEB</span>
+                <span class="heading2">DESIGN</span>
+            </h1>
+            <div class="user_class" onclick="document.getElementById('box2').style.display='block'">
+                <h3 style="text-align: center;margin-top: 4%;"><i class="fas fa-user"></i>Register</h3>
+            </div>
+            <div class="login_class" onclick="document.getElementById('box1').style.display='block'">
+                <h3 style="text-align: center;margin-top: 4%;"><i class="fas fa-sign-in-alt"></i>&nbsp;Login</h3>
+            </div>
+        </div>
+        <!..........................header...........................>
+         <!..........................Body...........................>
+        <div class="box">
+            <img src="images/dynamic.jpg" height="300px;" width="100%">
+            <center>
+                <p>
+                    <b>What is Lorem Ipsum?</b><br>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                </p>
+            </center>
+        </div>
+        <!..........................Body...........................>
+        <div class="box_login" id="box1">
+            <img src="images/lock.png">
+             <form method="post">
+                                    
+                                     <p><input type="email" name="email" placeholder="E-Mail" required  class="form_class"></p>
+                                     <br>
+                                     <br>
+                                    <br>
+                                     <p><input type="password" name="pass" placeholder="Password" required  class="form_class" ></p>
+                                     <br>
+                                     <br>
+                                    <br>
+                                     <p><input type="submit" name="button" value="Log In"  class="sub"></p>          
+                                 
+            </form>
+        </div>
+        
+        <div class="box_register" id="box2">
+            <img src="images/Users-User-icon.png">
+             <form method="post">
+                                    
+                                     <p><input type="email" name="email" placeholder="E-Mail" required  class="form_class2"></p>
+                                     <br>
+                                     <br>
+                                     <p><input type='text' name="fname" placeholder="FirstName" required class="form_class2"></p>
+                                     <br><br>
+                                     <p><input type='text' name="sname" placeholder="SirName" required class="form_class2"></p>
+                                     <br><br>
+                                     <p><input type="password" name="pass" placeholder="Password" required  class="form_class2" ></p>
+                                     <br>
+                                     <br>
+                                     <p><input type="submit" name="button" value="Log In"  class="sub"></p>          
+                                 
+            </form>
+        </div>
+    </body>
+</html>
